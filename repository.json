@@ -1,0 +1,22 @@
+{
+  "packages": {
+    "notepadpp": {
+      "name": "Notepad++",
+      "url": "https://github.com",
+      "filename": "npp_installer.exe",
+      "args": ""
+    },
+    "vlc": {
+      "name": "VLC Media Player",
+      "url": "https://videolan.org",
+      "filename": "vlc_installer.exe",
+      "args": ""
+    },
+    "git": {
+      "name": "Git for Windows",
+      "url": "https://github.com",
+      "filename": "git_installer.exe",
+      "args": ""
+    }
+  }
+}
