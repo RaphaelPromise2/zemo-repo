@@ -1,22 +1,32 @@
 {
+  "meta": {
+    "zemo_version": "1.0.0",
+    "zemo_url": "https://githubusercontent.com"
+  },
   "packages": {
     "notepadpp": {
       "name": "Notepad++",
       "url": "https://github.com",
       "filename": "npp_installer.exe",
-      "args": ""
+      "args": "",
+      "version": "8.6.4",
+      "sha256": "4736f87cb51a9fbdfd52cbe99b53d5a2d1dcd4a180d738ff91d1e43c5cdff097"
     },
     "vlc": {
       "name": "VLC Media Player",
       "url": "https://videolan.org",
       "filename": "vlc_installer.exe",
-      "args": ""
+      "args": "",
+      "version": "3.0.20",
+      "sha256": "7b58737be70df0297072a420b9cd3a6ef0e54bd584ba67793d9fc2c4bbf529ee"
     },
     "git": {
       "name": "Git for Windows",
       "url": "https://github.com",
       "filename": "git_installer.exe",
-      "args": ""
+      "args": "",
+      "version": "2.44.0",
+      "sha256": "1f8f309a4eb0f99479e51c87c0e66c29df6cb86dfa785d03a1ee71f308f237bf"
     }
   }
 }
