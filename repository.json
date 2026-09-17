@@ -8,25 +8,141 @@
       "name": "Notepad++",
       "url": "https://github.com",
       "filename": "npp_installer.exe",
-      "args": "",
-      "version": "8.6.4",
-      "sha256": "4736f87cb51a9fbdfd52cbe99b53d5a2d1dcd4a180d738ff91d1e43c5cdff097"
+      "args": "/S",
+      "version": "8.6.4"
     },
     "vlc": {
       "name": "VLC Media Player",
       "url": "https://videolan.org",
       "filename": "vlc_installer.exe",
-      "args": "",
-      "version": "3.0.20",
-      "sha256": "7b58737be70df0297072a420b9cd3a6ef0e54bd584ba67793d9fc2c4bbf529ee"
+      "args": "/S",
+      "version": "3.0.20"
     },
     "git": {
       "name": "Git for Windows",
       "url": "https://github.com",
       "filename": "git_installer.exe",
-      "args": "",
-      "version": "2.44.0",
-      "sha256": "1f8f309a4eb0f99479e51c87c0e66c29df6cb86dfa785d03a1ee71f308f237bf"
+      "args": "/VERYSILENT /NORESTART",
+      "version": "2.44.0"
+    },
+    "cmake": {
+      "name": "CMake",
+      "url": "https://github.com",
+      "filename": "cmake_installer.msi",
+      "args": "/passive",
+      "version": "3.29.2"
+    },
+    "python": {
+      "name": "Python Runtime",
+      "url": "https://python.org",
+      "filename": "python_installer.exe",
+      "args": "/passive InstallAllUsers=1 PrependPath=1",
+      "version": "3.12.2"
+    },
+    "vscode": {
+      "name": "Visual Studio Code",
+      "url": "https://visualstudio.com",
+      "filename": "vscode_installer.exe",
+      "args": "/verysilent /mergetasks=!runcode",
+      "version": "1.87.0"
+    },
+    "7zip": {
+      "name": "7-Zip",
+      "url": "https://7-zip.org",
+      "filename": "7z_installer.exe",
+      "args": "/S",
+      "version": "24.01"
+    },
+    "firefox": {
+      "name": "Mozilla Firefox",
+      "url": "https://mozilla.org",
+      "filename": "firefox_setup.exe",
+      "args": "/S",
+      "version": "latest"
+    },
+    "brave": {
+      "name": "Brave Browser",
+      "url": "https://brave.com",
+      "filename": "brave_setup.exe",
+      "args": "/silent",
+      "version": "latest"
+    },
+    "node": {
+      "name": "Node.js LTS",
+      "url": "https://nodejs.org",
+      "filename": "node_setup.msi",
+      "args": "/passive /norestart",
+      "version": "20.11.1"
+    },
+    "putty": {
+      "name": "PuTTY SSH Client",
+      "url": "https://earth.li",
+      "filename": "putty_setup.msi",
+      "args": "/passive",
+      "version": "latest"
+    },
+    "winscp": {
+      "name": "WinSCP",
+      "url": "https://winscp.net",
+      "filename": "winscp_setup.exe",
+      "args": "/verysilent /norestart",
+      "version": "6.3.2"
+    },
+    "wireshark": {
+      "name": "Wireshark Network Analyzer",
+      "url": "https://wireshark.org",
+      "filename": "wireshark_setup.exe",
+      "args": "/S",
+      "version": "4.2.3"
+    },
+    "docker": {
+      "name": "Docker Desktop",
+      "url": "https://docker.com",
+      "filename": "docker_setup.exe",
+      "args": "install --quiet",
+      "version": "latest"
+    },
+    "sublimetext": {
+      "name": "Sublime Text 4",
+      "url": "https://sublimetext.com",
+      "filename": "sublime_setup.exe",
+      "args": "/VERYSILENT /NORESTART",
+      "version": "4169"
+    },
+    "postman": {
+      "name": "Postman API Platform",
+      "url": "https://pstmn.io",
+      "filename": "postman_setup.exe",
+      "args": "/S",
+      "version": "latest"
+    },
+    "dbeaver": {
+      "name": "DBeaver Community Edition",
+      "url": "https://dbeaver.io",
+      "filename": "dbeaver_setup.exe",
+      "args": "/S",
+      "version": "latest"
+    },
+    "rust": {
+      "name": "Rust Programming Language",
+      "url": "https://rust-lang.org",
+      "filename": "rustup-init.exe",
+      "args": "-y --default-toolchain stable",
+      "version": "stable"
+    },
+    "golang": {
+      "name": "Go Programming Language",
+      "url": "https://go.dev",
+      "filename": "go_setup.msi",
+      "args": "/passive",
+      "version": "1.22.1"
+    },
+    "everything": {
+      "name": "Everything Search Utility",
+      "url": "https://voidtools.com",
+      "filename": "everything_setup.exe",
+      "args": "/S",
+      "version": "1.4.1"
     }
   }
 }
