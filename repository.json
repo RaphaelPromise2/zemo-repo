@@ -26,14 +26,14 @@
       "version": "2.44.0"
     },
     "cmake": {
-      "name": "CMake",
+      "name": "CMake Build Tool",
       "url": "https://github.com",
       "filename": "cmake_installer.msi",
       "args": "/passive",
       "version": "3.29.2"
     },
     "python": {
-      "name": "Python Runtime",
+      "name": "Python Runtime Engine",
       "url": "https://python.org",
       "filename": "python_installer.exe",
       "args": "/passive InstallAllUsers=1 PrependPath=1",
@@ -47,18 +47,11 @@
       "version": "1.87.0"
     },
     "7zip": {
-      "name": "7-Zip",
+      "name": "7-Zip File Archiver",
       "url": "https://7-zip.org",
       "filename": "7z_installer.exe",
       "args": "/S",
       "version": "24.01"
-    },
-    "firefox": {
-      "name": "Mozilla Firefox",
-      "url": "https://mozilla.org",
-      "filename": "firefox_setup.exe",
-      "args": "/S",
-      "version": "latest"
     },
     "brave": {
       "name": "Brave Browser",
@@ -67,64 +60,71 @@
       "args": "/silent",
       "version": "latest"
     },
+    "firefox": {
+      "name": "Mozilla Firefox",
+      "url": "https://mozilla.org",
+      "filename": "firefox_setup.exe",
+      "args": "/S",
+      "version": "latest"
+    },
     "node": {
-      "name": "Node.js LTS",
+      "name": "Node.js JavaScript Runtime",
       "url": "https://nodejs.org",
       "filename": "node_setup.msi",
       "args": "/passive /norestart",
       "version": "20.11.1"
     },
     "putty": {
-      "name": "PuTTY SSH Client",
+      "name": "PuTTY SSH Terminal Client",
       "url": "https://earth.li",
       "filename": "putty_setup.msi",
       "args": "/passive",
       "version": "latest"
     },
     "winscp": {
-      "name": "WinSCP",
+      "name": "WinSCP FTP Client",
       "url": "https://winscp.net",
       "filename": "winscp_setup.exe",
       "args": "/verysilent /norestart",
       "version": "6.3.2"
     },
     "wireshark": {
-      "name": "Wireshark Network Analyzer",
+      "name": "Wireshark Packet Analyzer",
       "url": "https://wireshark.org",
       "filename": "wireshark_setup.exe",
       "args": "/S",
       "version": "4.2.3"
     },
     "docker": {
-      "name": "Docker Desktop",
+      "name": "Docker Desktop Suite",
       "url": "https://docker.com",
       "filename": "docker_setup.exe",
       "args": "install --quiet",
       "version": "latest"
     },
     "sublimetext": {
-      "name": "Sublime Text 4",
+      "name": "Sublime Text Editor",
       "url": "https://sublimetext.com",
       "filename": "sublime_setup.exe",
       "args": "/VERYSILENT /NORESTART",
       "version": "4169"
     },
     "postman": {
-      "name": "Postman API Platform",
+      "name": "Postman API Design Suite",
       "url": "https://pstmn.io",
       "filename": "postman_setup.exe",
       "args": "/S",
       "version": "latest"
     },
     "dbeaver": {
-      "name": "DBeaver Community Edition",
+      "name": "DBeaver SQL Client Suite",
       "url": "https://dbeaver.io",
       "filename": "dbeaver_setup.exe",
       "args": "/S",
       "version": "latest"
     },
     "rust": {
-      "name": "Rust Programming Language",
+      "name": "Rust Toolchain Installer",
       "url": "https://rust-lang.org",
       "filename": "rustup-init.exe",
       "args": "-y --default-toolchain stable",
@@ -138,11 +138,116 @@
       "version": "1.22.1"
     },
     "everything": {
-      "name": "Everything Search Utility",
+      "name": "Everything Instant Search Utility",
       "url": "https://voidtools.com",
       "filename": "everything_setup.exe",
       "args": "/S",
       "version": "1.4.1"
+    },
+    "curl": {
+      "name": "cURL Command Line Data Transfer Utility",
+      "url": "https://curl.se",
+      "filename": "curl.zip",
+      "args": "extract",
+      "version": "8.6.0"
+    },
+    "wget": {
+      "name": "GNU Wget Network Retrieval Utility",
+      "url": "https://eternallybored.org",
+      "filename": "wget.exe",
+      "args": "",
+      "version": "1.21.4"
+    },
+    "jq": {
+      "name": "jq Command Line JSON Processor",
+      "url": "https://github.com",
+      "filename": "jq.exe",
+      "args": "",
+      "version": "1.7.1"
+    },
+    "neovim": {
+      "name": "Vim Fork Focused on Extensibility",
+      "url": "https://github.com",
+      "filename": "nvim.msi",
+      "args": "/passive",
+      "version": "0.9.5"
+    },
+    "gow": {
+      "name": "Gow (GNU on Windows) Light Unix Command Suite",
+      "url": "https://github.com",
+      "filename": "gow_setup.exe",
+      "args": "/S",
+      "version": "0.8.0"
+    },
+    "fzf": {
+      "name": "fzf Command Line Fuzzy Finder",
+      "url": "https://github.com",
+      "filename": "fzf.zip",
+      "args": "extract",
+      "version": "0.46.1"
+    },
+    "ripgrep": {
+      "name": "ripgrep High Performance Line Oriented Search",
+      "url": "https://github.com",
+      "filename": "ripgrep.zip",
+      "args": "extract",
+      "version": "14.1.0"
+    },
+    "fd": {
+      "name": "fd Simple Fast and User Friendly Alternative to find",
+      "url": "https://github.com",
+      "filename": "fd.zip",
+      "args": "extract",
+      "version": "9.0.0"
+    },
+    "openssh": {
+      "name": "OpenSSH Secure Shell Client Suite",
+      "url": "https://github.com",
+      "filename": "openssh.msi",
+      "args": "/passive",
+      "version": "9.5.0"
+    },
+    "rsync": {
+      "name": "rsync Fast Incremental File Transfer Utility",
+      "url": "https://github.com",
+      "filename": "git_installer.exe",
+      "args": "/VERYSILENT",
+      "version": "2.44.0"
+    },
+    "innounp": {
+      "name": "Inno Setup Unpacker Utility",
+      "url": "https://sourceforge.net",
+      "filename": "innounp.rar",
+      "args": "extract",
+      "version": "0.50"
+    },
+    "aria2": {
+      "name": "aria2 High Speed Multi Protocol Download Utility",
+      "url": "https://github.com",
+      "filename": "aria2.zip",
+      "args": "extract",
+      "version": "1.37.0"
+    },
+    "busybox": {
+      "name": "BusyBox Tiny Utilities Combined Embedded Executable",
+      "url": "https://frippery.org",
+      "filename": "busybox.exe",
+      "args": "",
+      "version": "1.36.1"
+    },
+    "make": {
+      "name": "GNU Make Compilation Execution Software Utility",
+      "url": "https://github.com",
+      "filename": "make.exe",
+      "args": "",
+      "version": "4.3"
+    },
+    "innosetup": {
+      "name": "Inno Setup Windows Installer Creation Toolkit",
+      "url": "https://jrsoftware.org",
+      "filename": "innosetup_setup.exe",
+      "args": "/SP- /VERYSILENT /SUPPRESSMSGBOXES",
+      "version": "6.2.2"
     }
   }
 }
